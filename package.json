@@ -1,6 +1,6 @@
 {
   "name": "sol-claude-router",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Run Claude Code through GPT-5.6 models using ChatGPT Codex OAuth",
   "license": "MIT",
   "author": "mindcrafter129",

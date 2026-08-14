@@ -6,8 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-08-15
+
 ### Added
 
+- First stable npm release.
 - Publish-ready npm package metadata and installation documentation.
 - Contribution and security policies.
 
@@ -23,5 +26,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Process-scoped Claude Code launcher that leaves normal `claude` authentication unchanged.
 - Protocol, tool, streaming, error, and cancellation tests.
 
-[Unreleased]: https://github.com/mindcrafter129/sol-claude-router/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/mindcrafter129/sol-claude-router/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/mindcrafter129/sol-claude-router/releases/tag/v1.0.0
 [0.1.0]: https://github.com/mindcrafter129/sol-claude-router/releases/tag/v0.1.0
