@@ -1,14 +1,40 @@
 {
   "name": "sol-claude-router",
   "version": "0.1.0",
-  "private": true,
+  "description": "Run Claude Code through GPT-5.6 models using ChatGPT Codex OAuth",
+  "license": "MIT",
+  "author": "mindcrafter129",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindcrafter129/sol-claude-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mindcrafter129/sol-claude-router/issues"
+  },
+  "homepage": "https://github.com/mindcrafter129/sol-claude-router#readme",
+  "keywords": [
+    "claude-code",
+    "codex",
+    "chatgpt",
+    "oauth",
+    "anthropic",
+    "router",
+    "gpt-5.6"
+  ],
   "type": "module",
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "bin": {
     "sol": "src/cli.js"
   },
   "scripts": {
     "test": "node --test",
-    "start": "node src/cli.js"
+    "start": "node src/cli.js",
+    "prepack": "npm test"
   },
   "dependencies": {
     "@openai/codex": "0.147.0",
@@ -16,5 +42,8 @@
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "os": [
+    "win32"
+  ]
 }
