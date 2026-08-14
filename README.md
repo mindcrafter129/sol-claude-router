@@ -1,5 +1,9 @@
 # Sol Claude Router
 
+[![npm](https://img.shields.io/npm/v/sol-claude-router)](https://www.npmjs.com/package/sol-claude-router)
+[![npm downloads](https://img.shields.io/npm/dm/sol-claude-router)](https://www.npmjs.com/package/sol-claude-router)
+[![License](https://img.shields.io/github/license/mindcrafter129/sol-claude-router)](https://github.com/mindcrafter129/sol-claude-router/blob/main/LICENSE)
+
 Use GPT-5.6 Sol, Terra, and Luna inside Claude Code through your ChatGPT Codex subscription.
 
 ```text
@@ -160,8 +164,6 @@ npm install
 npm link
 sol login
 ```
-
-The GitHub repository is private, so cloning requires access.
 
 ## Development
 
