@@ -1,0 +1,20 @@
+{
+  "name": "sol-claude-router",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "sol": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "@openai/codex": "0.147.0",
+    "gpt-tokenizer": "3.4.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
