@@ -161,8 +161,6 @@ npm link
 sol login
 ```
 
-The GitHub repository is private, so cloning requires access.
-
 ## Development
 
 ```powershell
